@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="/js/faceapi_service.js"></script>
+        <script src="/node_modules/face-api.js/dist/face-api.js"></script>
+        <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>
+        <div id="image-detection">
+            <img id="image" class="image-deteciton-area" src="/assets/sample_image.jpeg">
+            <canvas id="image-canvas" class="image-detection-area"></canvas>
+        </div>
+        <div id="video-detection">
+            <video id="video" class="video-detection-area" width="720" height="560"></video>
+            <canvas id="video-canvas" class="video-detection-area"></canvas>
+        </div>
+    </body>
+    <script>
+        detect_face_from_image();
+        detect_face_from_video();
+    </script>
+</html>

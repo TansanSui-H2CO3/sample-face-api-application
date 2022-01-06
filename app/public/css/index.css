@@ -1,0 +1,19 @@
+#image-detection {
+    position: relative;
+}
+
+#image-detection .image-detection-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#video-detection {
+    position: relative;
+}
+
+#video-detection .video-detection-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
